@@ -1,1 +1,11 @@
-/* write your override styles here */
+/* Remove the 7 graffiti tags from index.html with display:none */
+
+#wall .tag-1, 
+div#wall #tag-2,
+body div#wall #tag-3.slick,
+#wall .parent #tag-4,
+body div#wall .parent #tag-5.slick,
+body div#wall div.parent div:last-child > div#tag-6,
+body div#wall div.parent div:first-child > #tag-7.slick {
+  display: none;
+}
